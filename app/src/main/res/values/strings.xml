@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">View States</string>
+    <string name="title_notifications">Add State</string>
+    <string name="delete">Delete</string>
+</resources>

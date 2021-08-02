@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtStateId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="ID (Enter any number):"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtStateId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/txtStatename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="State Name:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtStatename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtImgurl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Image URL:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtImgurl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:windowSoftInputMode="adjustResize" />
+
+        <TextView
+            android:id="@+id/txtStateDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Description:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtStateDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:windowSoftInputMode="adjustResize" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#0617b7"
+            android:text="ADD"
+            android:textColor="#ffffff" />
+
+<!--        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#be082c"
+            android:text="Remove"
+            android:textColor="#ffffff" />-->
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
